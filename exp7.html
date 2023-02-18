@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Exp.06</title>
+</head>
+<body>
+<h1>String Functions</h1>
+<script>
+var str="String Objects"
+document.write("String is : ",str+"<br>")
+var str2=" Methods"
+var str3=str.concat(str2)
+document.write("Concatenated string is is : ",str3+"<br>")
+len=str3.length
+document.write("Length of the string is : ",len+"<br>")
+i=str3.indexOf("function")
+document.write("Index  position of the word 'function' is : ",i+"<br>")
+l=str3.lastIndexOf("java")
+document.write("Last index is : ",l+"<br>")
+low=str3.toLowerCase()
+document.write("Lower case of string is : ",low+"<br>")
+up=str3.toUpperCase()
+document.write("Upper case of string is : ",up+"<br>")
+sl=str3.slice(0,6)
+document.write("Sliced part of string is : ",sl+"<br>")
+tr=str3.trim()
+document.write("Trimed string is : ",tr+"<br>")
+spl=str3.split(" ")
+document.write("String after splitting is : ",spl+"<br>")
+</script>
+<h1>Math Functions</h1>
+<script>
+x=Math.floor(4.5)
+document.write("Floor value of '4.5' is : ", x+"<br>")
+y=Math.ceil(4.5)
+document.write("Ceil value of '4.5' is : ",y+"<br>")
+sq=Math.sqrt(4)
+document.write("Square root of '4' is : ",sq+"<br>")
+ab=Math.abs(-4.5)
+document.write("  Absolute value of '-4.5' is : ",ab+"<br>")
+mx=Math.max(3,1,8)
+document.write("Maximum value of '3,1,8' is : ",mx+"<br>")
+mn=Math.min(3,1,8)
+document.write("Minimum value of '3,1,8' is : ",mn+"<br>")
+rd=Math.round(4.38)
+document.write("Closest integer value of '4.38' is : ",rd+"<br>")
+tr=Math.trunc(8,99)
+document.write("Integer part of the number '8.99' is : ",tr+"<br>")
+pw=Math.pow(2,3)
+document.write("2^3 is : ",pw+"<br>")
+hp=Math.hypot(3,4)
+document.write("square root of sum of the squares of the given numbers is '3,4' is : ",hp+"<br>")
+
+
+</script>
+</body>
+</html>
